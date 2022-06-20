@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/ivLogoIG"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:id="@+id/iv_logo_singup"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
         android:src="@drawable/ic_instagram"
-        app:layout_constraintBottom_toTopOf="@+id/tv_description"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
 
     <TextView
         android:id="@+id/tv_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Regístrate para ver fotos de tus amigos"
-        android:layout_marginBottom="50dp"
+        android:text="Regśytrate para ver fotos de tus amigos"
         app:layout_constraintBottom_toTopOf="@+id/tv_username_signup"
-        app:layout_constraintEnd_toEndOf="@+id/ivLogoIG"
+        app:layout_constraintEnd_toEndOf="@+id/iv_logo_singup"
         app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="@+id/ivLogoIG"
-        app:layout_constraintTop_toBottomOf="@+id/ivLogoIG"
+        app:layout_constraintStart_toStartOf="@+id/iv_logo_singup"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logo_singup"
         app:layout_constraintVertical_bias="0.258" />
 
     <!--Recibir un nombre random consumiendo una API publica -->
@@ -36,9 +39,9 @@
         android:layout_height="wrap_content"
         android:text="User name"
         app:layout_constraintBottom_toTopOf="@+id/edit_password_singup"
-        app:layout_constraintEnd_toEndOf="@+id/ivLogoIG"
+        app:layout_constraintEnd_toEndOf="@+id/iv_logo_singup"
         app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="@+id/ivLogoIG"
+        app:layout_constraintStart_toStartOf="@+id/iv_logo_singup"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.913" />
 
