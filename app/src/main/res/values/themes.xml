@@ -14,7 +14,12 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <!-- Full Screen Dialog  -->
+
+    <style name="SplashTheme" parent="Theme.AppRedSocialIG">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
     <style name="FullScreenDialog">
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:windowNoTitle">true</item>

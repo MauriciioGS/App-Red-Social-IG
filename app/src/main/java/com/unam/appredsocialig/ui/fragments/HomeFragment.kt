@@ -11,15 +11,23 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(
 
     override fun initElements() {
         showCollapsingToolBar(true)
-        createFragments()
+        initViews()
     }
 
-    private fun createFragments() {
+    private fun initViews() {
         setUpVP(binding.viewpagerHome)
+
+        /* Navigation para botones
+        (activity as NavigationActivity).mBinding.ivFilters.setOnSingleClickListener {
+            findNavControllerSafely()?.navigate(R.id.action_global_filtersFragment)
+        }*/
     }
 
     private fun setUpVP(viewPager: ViewPager2) {
         val adapter = ViewPagerAdapter(this)
+        adapter.addFragment(FeedFragment())
+        // Mensajes
+        // Historia
         viewPager.adapter = adapter
     }
 }

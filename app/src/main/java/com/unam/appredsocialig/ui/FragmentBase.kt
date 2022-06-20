@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.unam.appredsocialig.ui.ListViewBase
+import com.unam.appredsocialig.ui.NavigationActivity
 
 abstract class BaseFragment <VB : ViewBinding>(
     layout : Int,

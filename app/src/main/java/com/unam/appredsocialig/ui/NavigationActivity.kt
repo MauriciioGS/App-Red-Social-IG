@@ -1,4 +1,4 @@
-package com.unam.appredsocialig
+package com.unam.appredsocialig.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,6 +9,7 @@ import androidx.navigation.NavDestination
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.unam.appredsocialig.R
 import com.unam.appredsocialig.databinding.ActivityNavigationBinding
 
 class NavigationActivity : AppCompatActivity() {
@@ -23,6 +24,9 @@ class NavigationActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
+        setTheme(R.style.Theme_AppRedSocialIG)
+
         binding = DataBindingUtil.setContentView(this, R.layout.activity_navigation)
         initUI()
     }
