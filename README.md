@@ -2,7 +2,7 @@
 
 Proyecto para los cursos intersemestrales de android
 
-Temas a revisar para la implementación 
+## Temas a revisar para la implementación 
 
 ### Conceptos principales de Android
   - [ ] Andorid Manifest y permisos
