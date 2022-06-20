@@ -53,6 +53,7 @@ Proyecto para los cursos intersemestrales de android
   - [ ] Retrofit 2
   - [ ] Consumiendo API REST
 
+### Otros temas
 - [ ] Servicios de Google
 - [ ] Modo Oscuro
 - [ ] Persistencia de datos
