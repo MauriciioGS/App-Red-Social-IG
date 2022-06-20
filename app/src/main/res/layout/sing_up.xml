@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/iv_logo_singup"
-        android:layout_width="130dp"
+    <TextView
+        android:id="@+id/tv_singup"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ic_instagram"
+        android:text="Instagram"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -24,10 +24,10 @@
         android:layout_height="wrap_content"
         android:text="Regśytrate para ver fotos de tus amigos"
         app:layout_constraintBottom_toTopOf="@+id/tv_username_signup"
-        app:layout_constraintEnd_toEndOf="@+id/iv_logo_singup"
+        app:layout_constraintEnd_toEndOf="@+id/tv_singup"
         app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="@+id/iv_logo_singup"
-        app:layout_constraintTop_toBottomOf="@+id/iv_logo_singup"
+        app:layout_constraintStart_toStartOf="@+id/tv_singup"
+        app:layout_constraintTop_toBottomOf="@+id/tv_singup"
         app:layout_constraintVertical_bias="0.258" />
 
     <!--Recibir un nombre random consumiendo una API publica -->
@@ -38,9 +38,9 @@
         android:layout_height="wrap_content"
         android:text="User name"
         app:layout_constraintBottom_toTopOf="@+id/edit_password_singup"
-        app:layout_constraintEnd_toEndOf="@+id/iv_logo_singup"
+        app:layout_constraintEnd_toEndOf="@+id/tv_singup"
         app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="@+id/iv_logo_singup"
+        app:layout_constraintStart_toStartOf="@+id/tv_singup"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.913" />
 

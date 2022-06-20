@@ -6,12 +6,12 @@
     android:layout_height="match_parent">
 
 
-    <ImageView
-        android:id="@+id/iv_logo_login"
-        android:layout_width="130dp"
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ic_instagram"
+        android:text="Instagram"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/tv_username_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,9 +25,9 @@
         android:ems="10"
         android:hint="User name"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/iv_logo_login"
+        app:layout_constraintEnd_toEndOf="@+id/tv_login"
         app:layout_constraintHorizontal_bias="0.506"
-        app:layout_constraintStart_toStartOf="@+id/iv_logo_login"
+        app:layout_constraintStart_toStartOf="@+id/tv_login"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.367" />
 
