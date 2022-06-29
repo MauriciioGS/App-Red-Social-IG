@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "38145063680",
+    "project_id": "appredsocialig",
+    "storage_bucket": "appredsocialig.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38145063680:android:36bdab1d37d877323251e5",
+        "android_client_info": {
+          "package_name": "com.unam.appredsocialig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38145063680-spqvf9rq13vm3d90emrmf67tfjgboln1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbgRC9Qt2WnFavym6_HcJDq1j785GXJko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38145063680-spqvf9rq13vm3d90emrmf67tfjgboln1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

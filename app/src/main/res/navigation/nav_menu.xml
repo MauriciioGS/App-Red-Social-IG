@@ -25,4 +25,14 @@
 
     </fragment>
 
+    <activity
+        android:id="@+id/camaraActivity"
+        android:name="com.unam.appredsocialig.ui.fragments.Camera"
+        android:label="activity_camara"
+        tools:layout="@layout/activity_camera" >
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true"/>
+    </activity>
+
 </navigation>

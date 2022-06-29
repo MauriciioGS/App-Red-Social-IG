@@ -5,6 +5,7 @@ import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.os.Message
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -64,6 +65,19 @@ abstract class BaseFragment <VB : ViewBinding>(
     }
 
     protected abstract fun initElements()
+
+    protected fun showErrorDialog(title : String, message: String){
+        MaterialAlertDialogBuilder(requireContext())
+            .setTitle(title)
+            .setMessage(message)
+            .setNeutralButton(resources.getString(R.string.cancelBtn)) { dialog, which ->
+                // Respond to neutral button press
+            }
+            .setPositiveButton(resources.getString(R.string.acceptBtn)) { dialog, which ->
+                // Respond to possitive button press
+            }
+            .show()
+    }
 
     fun showCollapsingToolBar(show: Boolean = false) {
         val activity = (activity as NavigationActivity)

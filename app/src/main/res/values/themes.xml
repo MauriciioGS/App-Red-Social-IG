@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.AppRedSocialIG" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -15,14 +15,53 @@
     </style>
 
 
-    <style name="SplashTheme" parent="Theme.AppRedSocialIG">
+    <style name="SplashScreen" parent="Theme.AppRedSocialIG">
         <item name="android:windowBackground">@drawable/splashscreen</item>
         <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="BottomNavView" parent="Theme.AppRedSocialIG">
+        <item name="backgroundTint">@color/white</item>
+        <item name="itemRippleColor">@color/white</item>
+    </style>
+
+    <style name="ToolBar" parent="Theme.AppRedSocialIG">
+        <item name="backgroundTint">@color/white</item>
     </style>
 
     <style name="FullScreenDialog">
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Botones" parent="Theme.AppRedSocialIG">
+        <item name="backgroundTint">@color/blue_text</item>
+        <item name="rippleColor">@color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ItemPostRV" parent="Widget.Material3.CardView.Elevated">
+        <item name="backgroundTint">@color/black</item>
+    </style>
+
+    <style name="TextPosts" parent="Theme.AppRedSocialIG">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextDescPosts" parent="Theme.AppRedSocialIG">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <style name="ProfileIcon" parent="Theme.AppRedSocialIG">
+        <item name="civ_circle_background_color">@color/light_gray</item>
+        <item name="android:src">@drawable/ic_user</item>
+    </style>
+    
+    <style name="EditTextComment" parent="ThemeOverlay.Material3.TextInputEditText.FilledBox">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeWidth">0dp</item>
     </style>
 </resources>

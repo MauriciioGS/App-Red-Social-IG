@@ -27,6 +27,8 @@ class NavigationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setTheme(R.style.Theme_AppRedSocialIG)
 
+        // Recibir los argumentos del login
+
         binding = DataBindingUtil.setContentView(this, R.layout.activity_navigation)
         initUI()
     }
